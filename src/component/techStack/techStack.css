@@ -1,0 +1,69 @@
+.tech_stack {
+    color: #292b2c;
+    width: 60%;
+    margin: 2vh auto;
+}
+
+.tech_stack_header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3vh 0;
+}
+
+.tech_stack_content {
+    font-size: 1.2rem;
+}
+
+#tech_react,
+#tech_html{
+    width: 5rem;
+    height: 4rem;
+}
+
+#tech_js {
+    width: 5.5rem;
+    height: 4.5rem;
+}
+
+#tech_css {
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+#tech_antd {
+    width: 8rem;
+    height: 9rem;
+}
+
+#tech_jdbc,
+#tech_nodejs {
+    width: 5rem;
+    height: 4rem;
+}
+#tech_mysql {
+    width: 5rem;
+    height: 3rem;
+}
+
+#tech_mongodb {
+    width: 6rem;
+    height: 4rem;
+}
+
+#tech_neo4j {
+    width: 8rem;
+    height: 4rem;
+}
+
+#tech_postgresql {
+    width: 5rem;
+    height: 4rem;
+}
+
+.tech_stack_content img {
+    margin-right: 2vw;
+}
+
+.tech_stack_content_context {
+    margin: 3vh 0;
+}

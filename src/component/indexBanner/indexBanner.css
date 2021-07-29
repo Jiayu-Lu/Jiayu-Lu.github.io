@@ -1,0 +1,32 @@
+.index_banner {
+    position: relative;
+    min-height: 30vh;
+    padding: 5vh 0;
+}
+
+.index_banner_name {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.index_banner_career {
+    text-align: center;
+}
+
+.index_banner_icons {
+    position: absolute;
+    bottom: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.index_banner_icons a {
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+#index_banner_facebook:hover,
+#index_banner_github:hover,
+#index_banner_linkedin:hover {
+    font-size: 120%;
+}

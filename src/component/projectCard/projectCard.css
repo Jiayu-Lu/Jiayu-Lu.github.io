@@ -1,0 +1,16 @@
+.project_card {
+    background-color: #c6ab7e;
+    width: 70%;
+    min-height: 10vh;
+    margin: 3vh auto;
+    padding: 2vh 2vw;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px gray;
+}
+
+.project_card>div:nth-child(1)>img {
+    width: 20rem;
+    height: 10rem;
+}

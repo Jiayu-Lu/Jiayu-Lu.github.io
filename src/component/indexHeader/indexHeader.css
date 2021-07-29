@@ -1,0 +1,17 @@
+.index_header {
+    min-height: 30vh;
+    background-color: #c6ab7e;
+    width: 60%;
+    margin: 0 auto;
+    color: #292b2c;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px gray;
+}
+
+.index_header_content {
+    text-align: center;
+}
+
+.index_header_content_header {
+    font-size: 2rem;
+}
