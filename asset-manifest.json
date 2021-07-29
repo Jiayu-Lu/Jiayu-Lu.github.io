@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.932acccd.chunk.css",
-    "main.js": "/static/js/main.47696655.chunk.js",
-    "main.js.map": "/static/js/main.47696655.chunk.js.map",
+    "main.css": "/static/css/main.50e322f6.chunk.css",
+    "main.js": "/static/js/main.c0e11e60.chunk.js",
+    "main.js.map": "/static/js/main.c0e11e60.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.063b6589.js",
     "runtime-main.js.map": "/static/js/runtime-main.063b6589.js.map",
     "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
-    "static/js/2.1b07b386.chunk.js": "/static/js/2.1b07b386.chunk.js",
-    "static/js/2.1b07b386.chunk.js.map": "/static/js/2.1b07b386.chunk.js.map",
+    "static/js/2.69f1c862.chunk.js": "/static/js/2.69f1c862.chunk.js",
+    "static/js/2.69f1c862.chunk.js.map": "/static/js/2.69f1c862.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.932acccd.chunk.css.map": "/static/css/main.932acccd.chunk.css.map",
-    "static/js/2.1b07b386.chunk.js.LICENSE.txt": "/static/js/2.1b07b386.chunk.js.LICENSE.txt",
+    "static/css/main.50e322f6.chunk.css.map": "/static/css/main.50e322f6.chunk.css.map",
+    "static/js/2.69f1c862.chunk.js.LICENSE.txt": "/static/js/2.69f1c862.chunk.js.LICENSE.txt",
+    "static/media/EmpowerUAfrica.7aad5d62.png": "/static/media/EmpowerUAfrica.7aad5d62.png",
     "static/media/antd.9a770c8b.png": "/static/media/antd.9a770c8b.png",
     "static/media/bootstrap.d315d06b.png": "/static/media/bootstrap.d315d06b.png",
     "static/media/css.8a182087.png": "/static/media/css.8a182087.png",
     "static/media/facebook.4d446026.svg": "/static/media/facebook.4d446026.svg",
     "static/media/github.22e65707.svg": "/static/media/github.22e65707.svg",
     "static/media/html.7d984b24.png": "/static/media/html.7d984b24.png",
-    "static/media/index.css": "/static/media/indexBannerBg.c696525b.jpg",
+    "static/media/project.css": "/static/media/indexBannerBg.c696525b.jpg",
     "static/media/jdbc.c2e5f75c.png": "/static/media/jdbc.c2e5f75c.png",
     "static/media/linkedin.2eda7bdd.svg": "/static/media/linkedin.2eda7bdd.svg",
     "static/media/mongodb.01ecea01.png": "/static/media/mongodb.01ecea01.png",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.063b6589.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.1b07b386.chunk.js",
-    "static/css/main.932acccd.chunk.css",
-    "static/js/main.47696655.chunk.js"
+    "static/js/2.69f1c862.chunk.js",
+    "static/css/main.50e322f6.chunk.css",
+    "static/js/main.c0e11e60.chunk.js"
   ]
 }
