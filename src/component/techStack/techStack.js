@@ -19,7 +19,7 @@ export default class techStack extends Component {
         return (
             <div className='tech_stack'>
                 <div className='tech_stack_header'>
-                    My Technology Stack
+                    My Technology Stack Experience
                 </div>
                 <div className='tech_stack_content'>
                     <div>

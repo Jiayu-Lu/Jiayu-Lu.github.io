@@ -4,13 +4,28 @@
     min-height: 10vh;
     margin: 3vh auto;
     padding: 2vh 2vw;
-    display: grid;
-    grid-template-columns: 40% 60%;
     border-radius: 10px;
     box-shadow: 0 0 2px 1px gray;
 }
 
-.project_card>div:nth-child(1)>img {
-    width: 20rem;
-    height: 10rem;
+.project_card img{
+    width: 15rem;
+    height: 8rem;
+}
+
+.project_offcanvas {
+    height: 50vh;
+}
+
+.project_offcanvas_trigger {
+    background-color: #292b2c;
+    color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px gray;
+    border: none;
+    vertical-align: middle;
+}
+
+.project_offcanvas_trigger:hover {
+    color: #c5c5c5;
 }

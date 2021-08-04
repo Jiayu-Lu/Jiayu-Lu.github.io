@@ -1,0 +1,9 @@
+.project_banner {
+    min-height: 10vh;
+    padding: 5vh 0;
+}
+
+.project_banner_name {
+    text-align: center;
+    font-size: 3rem;
+}

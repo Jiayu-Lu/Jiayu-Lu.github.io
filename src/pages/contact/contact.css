@@ -1,5 +1,5 @@
-.index_page {
-    min-height: 150vh;
+.contact_page {
+    min-height: 100vh;
     padding-top: 5vh;
     background-image: url(../../images/bgImg/indexBannerBg.jpg);
     background-size: contain;
@@ -7,17 +7,17 @@
     background-attachment: fixed;
 }
 
-.index_body {
+.contact_body {
     background-color: #eee;
-    min-height: 120vh;
+    min-height: 80vh;
     padding-top: 5vh;
     padding: 5vh 1vw;
 }
 
-.index_program_language_section {
+.contact_info {
     text-align: center;
     margin: 3vh auto;
-    width: 50%;
+    width: 60%;
     background-color: #c6ab7e;
     padding: 3vh 3vw;
     color: #292b2c;
@@ -25,20 +25,8 @@
     box-shadow: 0 0 2px 1px gray;
 }
 
-.index_program_language_progess {
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
-.index_program_language_section_header {
-    font-size: 1.5rem;
-    margin-bottom: 4vh;
-    font-weight: bolder;
-}
-
-.index_footer {
-    background-color: #292b2c;
-    color: #eee;
-    min-height: 4vh;
-    text-align: center;
+.contact_info a{
+    display: block;
+    text-align: left;
+    margin-bottom: 3vh;
 }

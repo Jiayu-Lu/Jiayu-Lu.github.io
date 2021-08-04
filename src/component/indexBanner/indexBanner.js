@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Wave } from 'react-animated-text';
 import './indexBanner.css'
 
 import facebook from '../../images/icons/facebook.svg'
@@ -11,11 +12,11 @@ export default class indexBanner extends Component {
             <div className='index_banner'>
                 
                 <div className='index_banner_name'>
-                    Jiayu(Josiah) Lu
+                    <Wave iterations={1} effect="verticalFadeIn" text="Jiayu(Josiah) Lu"/>
                 </div>
 
                 <div className='index_banner_career'>
-                    -Software Developer-
+                    <Wave iterations={1} effect="verticalFadeIn" effectDirection="down" text="-Software Developer-"/>
                 </div>
 
                 <div className='index_banner_icons'>

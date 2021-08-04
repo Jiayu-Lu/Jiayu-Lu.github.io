@@ -8,10 +8,15 @@
     text-align: center;
     font-size: 1.5rem;
     margin: 3vh 0;
+    font-weight: bolder;
 }
 
 .tech_stack_content {
     font-size: 1.2rem;
+}
+
+.tech_stack_content_context {
+    font-weight: bolder;
 }
 
 #tech_react,

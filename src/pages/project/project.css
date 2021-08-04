@@ -6,3 +6,22 @@
     background-position: top center;
     background-attachment: fixed;
 }
+
+#project_type_switch {
+    color: white;
+}
+
+.project_type_switch {
+    background-color: #292b2c;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.project_type_switch > a {
+    color:#f7f7f7;
+}
+
+.project_type_switch > a:hover {
+    color:#cacaca;
+}
