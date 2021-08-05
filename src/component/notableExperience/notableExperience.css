@@ -1,0 +1,10 @@
+.notable_experience_header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 6vh 0;
+    font-weight: bolder;
+}
+
+.notable_experience_content {
+    text-align: left;
+}

@@ -16,3 +16,9 @@
     font-size: 2rem;
     font-weight: bolder;
 }
+
+.index_header_content_context {
+    text-indent: 2vw;
+    text-align: left;
+    padding: 3vh 3vw;
+}

@@ -20,13 +20,13 @@ export default class indexBanner extends Component {
                 </div>
 
                 <div className='index_banner_icons'>
-                    <a id='index_banner_facebook'>
+                    <a id='index_banner_facebook' href='https://www.facebook.com/jiayu.lu.946'>
                         <img src={facebook} style={{width: '1.5rem'}}/>
                     </a>
-                    <a id='index_banner_github'>
+                    <a id='index_banner_github' href='https://github.com/Jiayu-Lu'>
                         <img src={github} style={{width: '1.5rem'}}/>
                     </a>
-                    <a id='index_banner_linkedin'>
+                    <a id='index_banner_linkedin' href='https://www.linkedin.com/in/josiahlu'>
                         <img src={linkedin} style={{width: '1.5rem'}}/>
                     </a>
                 </div>

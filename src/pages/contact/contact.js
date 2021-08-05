@@ -34,7 +34,7 @@ export default class contact extends Component {
                                 </Row>
                             </Container>
                         </a>
-                        <hr/>
+       
                         <a id='contact_mail' href="mailTo:jiay.lu@mail.utoronto.ca">
                             <Container>
                                 <Row>
@@ -42,13 +42,13 @@ export default class contact extends Component {
                                         <img src={mail} style={{width: '2rem'}}/>
                                     </Col>
 
-                                    <Col md={{span: 6}}>
+                                    <Col md={{span: 3}}>
                                         Email: jiay.lu@mail.utoronto.ca
                                     </Col>
                                 </Row>
                             </Container>
                         </a>
-                        <hr/>
+                     
                         <a id='contact_linkedin' href="https://www.linkedin.com/in/josiahlu">
                             <Container>
                                 <Row>
@@ -62,7 +62,7 @@ export default class contact extends Component {
                                 </Row>
                             </Container>
                         </a>
-                        <hr/>
+                     
                         <a id='contact_github' href='https://github.com/Jiayu-Lu'>
                             <Container>
                                 <Row>
@@ -76,7 +76,7 @@ export default class contact extends Component {
                                 </Row>
                             </Container>
                         </a>
-                        <hr/>
+                   
                         <a id='contact_facebook' href='https://www.facebook.com/jiayu.lu.946'>
                             <Container>
                                 <Row>
@@ -90,7 +90,7 @@ export default class contact extends Component {
                                 </Row>
                             </Container>
                         </a>
-                        <hr/>
+                       
                         <a id='contact_discord'>
                             <Container>
                                 <Row>

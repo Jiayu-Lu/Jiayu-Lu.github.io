@@ -36,7 +36,7 @@ export default class projectCard extends Component {
                                 techStack? <p>{techStack}</p>: null
                             }
                             {
-                                sourceCodeURL?<a href={sourceCodeURL}>view source code</a> : null
+                                sourceCodeURL?<a href={sourceCodeURL}>view source code<br/></a> : null
                             }
                             {
                                 webURL?<a href={webURL}>view web page</a> : null

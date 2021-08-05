@@ -6,6 +6,7 @@ import Navbar from '../../component/navbar/navbar'
 import IndexBanner from '../../component/indexBanner/indexBanner'
 import IndexHeader from '../../component/indexHeader/indexHeader'
 import TechStack from '../../component/techStack/techStack'
+import NotableExperience from '../../component/notableExperience/notableExperience'
 import Footer from '../../component/footer/footer'
 
 export default class index extends Component {
@@ -24,27 +25,28 @@ export default class index extends Component {
                         <div className='index_program_language_section_context'>
                             <div className='index_program_language_progess'>
                                 <p>Java</p>
-                                <div><ProgressBar animated now={80}/></div>
+                                <div><ProgressBar animated now={90}/></div>
                             </div>
                             <div className='index_program_language_progess'>
                                 <p>Javascript</p>
-                                <div><ProgressBar animated now={60}/></div>
+                                <div><ProgressBar animated now={90}/></div>
                             </div>
                             <div className='index_program_language_progess'>
                                 <p>C</p>
-                                <div><ProgressBar animated now={55}/></div>
+                                <div><ProgressBar animated now={70}/></div>
                             </div>
                             <div className='index_program_language_progess'>
                                 <p>Python</p>
-                                <div><ProgressBar animated now={40}/></div>
+                                <div><ProgressBar animated now={50}/></div>
                             </div>
                             <div className='index_program_language_progess'>
                                 <p>SQL</p>
-                                <div><ProgressBar animated now={80}/></div>
+                                <div><ProgressBar animated now={90}/></div>
                             </div>
                         </div>
                     </div>
                     <TechStack/>
+                    <NotableExperience/>
                 </div>                
                 <Footer/>                    
             </div>

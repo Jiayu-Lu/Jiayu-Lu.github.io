@@ -28,5 +28,11 @@
 .contact_info a{
     display: block;
     text-align: left;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
+    text-decoration: none;
+    overflow: auto;
+}
+
+.contact_info a:hover{
+    text-decoration: underline;
 }
