@@ -19,12 +19,12 @@ export default class notableExperience extends Component {
                             <Col md={{span: 9}}>
                                 <ul>
                                     <li>
-                                        Having deep understanding of UX reviews and heuristic evaluations, 
-                                        such as Shneiderman's Eight Golden Rules of Interface Design. 
+                                        Having deep understanding of <strong>UX reviews and heuristic evaluations</strong>, 
+                                        such as <strong>Shneiderman's Eight Golden Rules</strong> of Interface Design. 
                                         Being skilled in designing an user-friendly interface .
                                     </li>
                                     <li>
-                                        Having experience with prototyping tools, such as Axure RP and Balsamiq.
+                                        Having experience with prototyping tools, such as <strong>Axure RP and Balsamiq</strong>.
                                         Be capable of collaborating within a team to create a prototype in heigh efficiency.
                                     </li>
                                 </ul>
@@ -39,10 +39,10 @@ export default class notableExperience extends Component {
                             <Col md={{span: 9}}>
                                 <ul>    
                                     <li>
-                                        Being able to collaboratively work in a team using github. Understanding gitflow and CI/CD tools.
+                                        Being able to collaboratively work in a team using <strong>Github</strong>. Understanding <strong>gitflow</strong> and <strong>CI/CD</strong> tools.
                                     </li>
                                     <li>
-                                        skilled in applying SVN as a version controll system.
+                                        skilled in applying <strong>SVN</strong> as a version controll system.
                                     </li>
                                 </ul>
                             </Col>
@@ -56,10 +56,10 @@ export default class notableExperience extends Component {
                             <Col md={{span: 9}}>
                                 <ul>    
                                     <li>
-                                        Having Strong understanding of database design theoryand normalization
+                                        Having Strong understanding of <strong>database design theory and normalization</strong>.
                                     </li>
                                     <li>
-                                        Be capable of design entity relationship diagram and tranform it into database schema,
+                                        Be capable of design <strong>entity relationship diagram and tranform it into database schema</strong>,
                                         by removing any generalizations (subclass), unnecessary data and structural redundancies, multi-valued attributes, 
                                         optional relationships,and irregularities.
                                     </li>
