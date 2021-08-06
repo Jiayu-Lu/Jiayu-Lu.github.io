@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b540595.chunk.css",
+    "main.css": "/static/css/main.48e54151.chunk.css",
     "main.js": "/static/js/main.2474bf68.chunk.js",
     "main.js.map": "/static/js/main.2474bf68.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.063b6589.js",
@@ -10,7 +10,7 @@
     "static/js/2.983550e2.chunk.js.map": "/static/js/2.983550e2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.1b540595.chunk.css.map": "/static/css/main.1b540595.chunk.css.map",
+    "static/css/main.48e54151.chunk.css.map": "/static/css/main.48e54151.chunk.css.map",
     "static/js/2.983550e2.chunk.js.LICENSE.txt": "/static/js/2.983550e2.chunk.js.LICENSE.txt",
     "static/media/AfricanImpactChallenge.a0566938.pdf": "/static/media/AfricanImpactChallenge.a0566938.pdf",
     "static/media/EmpowerUAfrica.7aad5d62.png": "/static/media/EmpowerUAfrica.7aad5d62.png",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.063b6589.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.983550e2.chunk.js",
-    "static/css/main.1b540595.chunk.css",
+    "static/css/main.48e54151.chunk.css",
     "static/js/main.2474bf68.chunk.js"
   ]
 }
