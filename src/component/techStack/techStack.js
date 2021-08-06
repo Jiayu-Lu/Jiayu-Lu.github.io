@@ -13,6 +13,7 @@ import mysql from '../../images/imgs/mysql.png'
 import postgresql from '../../images/imgs/postgresql.png'
 import mongodb from '../../images/imgs/mongodb.png'
 import neo4j from '../../images/imgs/neo4j.png'
+import docker from '../../images/imgs/docker.png'
 
 export default class techStack extends Component {
     render() {
@@ -47,6 +48,11 @@ export default class techStack extends Component {
                             <img id='tech_postgresql' src={postgresql}/>
                             <img id='tech_mongodb' src={mongodb}/>
                             <img id='tech_neo4j' src={neo4j}/>
+                        </div>
+
+                        <p className='tech_stack_content_context'>Other</p>
+                        <div>
+                            <img id='tech_docker' src={docker}/>
                         </div>
                     </div>
                 </div>

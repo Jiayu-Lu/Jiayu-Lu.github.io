@@ -65,10 +65,15 @@
     height: 4rem;
 }
 
+#tech_docker {
+    width: 5rem;
+    height: 4rem;
+}
+
 .tech_stack_content img {
     margin-right: 2vw;
 }
 
 .tech_stack_content_context {
-    margin: 3vh 0;
+    margin: 5vh 0;
 }

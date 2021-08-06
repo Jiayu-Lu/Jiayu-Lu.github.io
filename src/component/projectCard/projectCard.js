@@ -36,16 +36,16 @@ export default class projectCard extends Component {
                                 techStack? <p>{techStack}</p>: null
                             }
                             {
-                                sourceCodeURL?<a href={sourceCodeURL}>view source code<br/></a> : null
+                                sourceCodeURL?<a href={sourceCodeURL} className='project_button'>view source code<br/></a> : null
                             }
                             {
-                                webURL?<a href={webURL}>view web page</a> : null
+                                webURL?<a href={webURL} className='project_button'>view web page</a> : null
                             }
                             {
                                 description?
                                     <OffcanvasProvider>
                                         <Trigger component="button" children="view description" className="project_offcanvas_trigger"/>
-                                        <Offcanvas position="bottom" title={header} className="project_offcanvas">
+                                        <Offcanvas position="left" title={header} className="project_offcanvas">
                                             {description}
                                         </Offcanvas>
                                     </OffcanvasProvider>

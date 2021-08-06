@@ -11,10 +11,11 @@
 .project_card img{
     width: 15rem;
     height: 8rem;
+    border-radius: 10px;
 }
 
 .project_offcanvas {
-    height: 80vh;
+    width: 50%;
 }
 
 .project_offcanvas_trigger {
@@ -28,4 +29,21 @@
 
 .project_offcanvas_trigger:hover {
     color: #c5c5c5;
+}
+
+.project_button {
+    display: inline-block;
+    background-color: #292b2c;
+    color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px gray;
+    vertical-align: middle;
+    padding: 0.1vh 0.2vw;
+    text-decoration: none;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+.project_button:hover {
+    text-decoration: underline;
 }

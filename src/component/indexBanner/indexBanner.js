@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { Wave } from 'react-animated-text';
 import './indexBanner.css'
 
@@ -23,9 +24,15 @@ export default class indexBanner extends Component {
                     <a id='index_banner_facebook' href='https://www.facebook.com/jiayu.lu.946'>
                         <img src={facebook} style={{width: '1.5rem'}}/>
                     </a>
-                    <a id='index_banner_github' href='https://github.com/Jiayu-Lu'>
+                    <OverlayTrigger
+                        overlay={
+                            <Tooltip>
+                                Liturtle#1950
+                            </Tooltip>
+                        }
+                        >
                         <img src={github} style={{width: '1.5rem'}}/>
-                    </a>
+                    </OverlayTrigger>
                     <a id='index_banner_linkedin' href='https://www.linkedin.com/in/josiahlu'>
                         <img src={linkedin} style={{width: '1.5rem'}}/>
                     </a>

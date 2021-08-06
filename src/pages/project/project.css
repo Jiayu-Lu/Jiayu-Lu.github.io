@@ -16,12 +16,17 @@
     width: 50%;
     margin: 0 auto;
     border-radius: 10px;
+    padding: 0.2vh 0.2vw;
 }
 
 .project_type_switch > a {
     color:#f7f7f7;
+    border: none;
+    border-radius: 0 !important;
 }
 
 .project_type_switch > a:hover {
-    color:#cacaca;
+    color: #292b2c;
+    background-color: rgb(182, 182, 182);
+    border: none;
 }
