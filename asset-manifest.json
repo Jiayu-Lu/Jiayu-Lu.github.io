@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e97ef88c.chunk.css",
-    "main.js": "/static/js/main.ed7d6358.chunk.js",
-    "main.js.map": "/static/js/main.ed7d6358.chunk.js.map",
+    "main.css": "/static/css/main.1b540595.chunk.css",
+    "main.js": "/static/js/main.2474bf68.chunk.js",
+    "main.js.map": "/static/js/main.2474bf68.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.063b6589.js",
     "runtime-main.js.map": "/static/js/runtime-main.063b6589.js.map",
     "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
-    "static/js/2.dd29adc2.chunk.js": "/static/js/2.dd29adc2.chunk.js",
-    "static/js/2.dd29adc2.chunk.js.map": "/static/js/2.dd29adc2.chunk.js.map",
+    "static/js/2.983550e2.chunk.js": "/static/js/2.983550e2.chunk.js",
+    "static/js/2.983550e2.chunk.js.map": "/static/js/2.983550e2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.e97ef88c.chunk.css.map": "/static/css/main.e97ef88c.chunk.css.map",
-    "static/js/2.dd29adc2.chunk.js.LICENSE.txt": "/static/js/2.dd29adc2.chunk.js.LICENSE.txt",
+    "static/css/main.1b540595.chunk.css.map": "/static/css/main.1b540595.chunk.css.map",
+    "static/js/2.983550e2.chunk.js.LICENSE.txt": "/static/js/2.983550e2.chunk.js.LICENSE.txt",
     "static/media/AfricanImpactChallenge.a0566938.pdf": "/static/media/AfricanImpactChallenge.a0566938.pdf",
     "static/media/EmpowerUAfrica.7aad5d62.png": "/static/media/EmpowerUAfrica.7aad5d62.png",
     "static/media/antd.9a770c8b.png": "/static/media/antd.9a770c8b.png",
     "static/media/bootstrap.d315d06b.png": "/static/media/bootstrap.d315d06b.png",
     "static/media/css.8a182087.png": "/static/media/css.8a182087.png",
     "static/media/discord.30723243.svg": "/static/media/discord.30723243.svg",
+    "static/media/docker.6d1afdb4.png": "/static/media/docker.6d1afdb4.png",
     "static/media/doodleJump.4dbf8f3a.png": "/static/media/doodleJump.4dbf8f3a.png",
     "static/media/facebook.4d446026.svg": "/static/media/facebook.4d446026.svg",
     "static/media/github.22e65707.svg": "/static/media/github.22e65707.svg",
@@ -42,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.063b6589.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.dd29adc2.chunk.js",
-    "static/css/main.e97ef88c.chunk.css",
-    "static/js/main.ed7d6358.chunk.js"
+    "static/js/2.983550e2.chunk.js",
+    "static/css/main.1b540595.chunk.css",
+    "static/js/main.2474bf68.chunk.js"
   ]
 }
