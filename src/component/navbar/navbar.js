@@ -17,7 +17,7 @@ export default class index extends Component {
                         </Nav>
                         <Nav className="ml-auto">
                             <NavDropdown title="Utils" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#toDoList">To Do List</NavDropdown.Item>
+                                <NavDropdown.Item href="https://jiayu-lu.github.io/toDoList-Vue/">To Do List</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#githubSearch">Github User Search</NavDropdown.Item>
                             </NavDropdown>

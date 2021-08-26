@@ -47,3 +47,12 @@
 .project_button:hover {
     text-decoration: underline;
 }
+
+.project_card_techStack {
+    font-style: italic;
+}
+
+.project_card_header {
+    font-family: Serif;
+    font-size: 2rem;
+}

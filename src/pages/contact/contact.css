@@ -31,6 +31,7 @@
     margin-bottom: 5vh;
     text-decoration: none;
     overflow: auto;
+    word-break: break-word;
 }
 
 .contact_info a:hover{

@@ -30,10 +30,10 @@ export default class projectCard extends Component {
 
                         <Col md={{span: 6, offset: 3}}>
                             {
-                                header? <h4>{header}</h4> : null
+                                header? <h4 className='project_card_header'>{header}</h4> : null
                             }
                             {
-                                techStack? <p>{techStack}</p>: null
+                                techStack? <p className='project_card_techStack'>{techStack}</p>: null
                             }
                             {
                                 sourceCodeURL?<a href={sourceCodeURL} className='project_button'>view source code<br/></a> : null

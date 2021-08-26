@@ -1,4 +1,5 @@
 .notable_experience_header {
+    font-family: Serif;
     text-align: center;
     font-size: 1.5rem;
     margin: 6vh 0;
@@ -7,4 +8,8 @@
 
 .notable_experience_content {
     text-align: left;
+}
+
+.notable_experience_content_header {
+    font-family: Serif;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './techStack.css'
 
+import vue from '../../images/imgs/vue.png'
 import react from '../../images/imgs/react.jpg'
 import html from '../../images/imgs/html.png'
 import css from '../../images/imgs/css.png'
@@ -27,6 +28,7 @@ export default class techStack extends Component {
                         <p className='tech_stack_content_context'>Frontend</p>
                         <div>
                             <img id='tech_react' src={react}/>
+                            <img id='tech_vue' src={vue}/>
                             <img id='tech_html' src={html}/>
                             <img id='tech_css' src={css}/>
                             <img id='tech_js' src={js}/>

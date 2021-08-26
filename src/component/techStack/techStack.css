@@ -5,6 +5,7 @@
 }
 
 .tech_stack_header {
+    font-family: Serif;
     text-align: center;
     font-size: 1.5rem;
     margin: 3vh 0;
@@ -22,6 +23,11 @@
 #tech_react,
 #tech_html{
     width: 5rem;
+    height: 4rem;
+}
+
+#tech_vue {
+    width: 4.5rem;
     height: 4rem;
 }
 

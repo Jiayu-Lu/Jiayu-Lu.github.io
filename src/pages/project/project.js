@@ -117,6 +117,23 @@ export default class project extends Component {
                                 </p>
                             </div>
 
+        const toDoListVueDes = <div>
+            <h4>Description</h4>
+            <p>
+                The project is a to-do-list that is build using Vue. It supports actions, such as
+                adding tasks, deleting tasks, check all tasks etc.
+                Click on view web page to use it.
+            </p>
+            <h4>Objective</h4>
+            <p>
+                <ul>
+                    <li>
+                        Practice of Vue, Pubsub-js
+                    </li>
+                </ul>
+            </p>
+        </div>
+
         const githubSearchDes = <div>
                                 <h4>Description</h4>
                                 <p>
@@ -230,38 +247,45 @@ export default class project extends Component {
                     <Tab eventKey="All" title="All" className="project_type_context">
                         <ProjectCard imgURL={EmpowerUAfrica} 
                                     header='EmpowerUAfrica Website'
-                                    techStack='React Nodejs Expressjs MySQL Neo4j'
-                                    sourceCodeURL='https://github.com/UTSCCSCC01/project-uoft-kings'
+                                    techStack='React | Nodejs | Expressjs | MySQL | Neo4j'
+                                    sourceCodeURL='https://github.com/Jiayu-Lu/empowerUAfrica'
                                     webURL=''
                                     description={EmpowerUAfricaDes}
                         />
                         <ProjectCard imgURL={zoomer} 
                                     header='Zoomer'
-                                    techStack='PostgreSQL MongoDB Neo4j Java-HttpServer'
+                                    techStack='PostgreSQL | MongoDB | Neo4j | Java-HttpServer'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io/tree/master/src/pages/githubSearch'
                                     webURL=''
                                     description={zoomerDes}
                         />
                         <ProjectCard imgURL={neo4j} 
                                     header='neo4j Java-HttpServer'
-                                    techStack='Neo4j Java-HttpServer'
+                                    techStack='Neo4j | Java-HttpServer'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/neo4jJavaServer'
                                     webURL=''
                                     description={neo4jJavaServerDes}
                         />
                         <ProjectCard imgURL={postgresql} 
                                     header='PostgreSQL JDBC Backend'
-                                    techStack='PostgreSQL JDBC'
+                                    techStack='PostgreSQL | JDBC'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/postgreSQL_JDBC'
                                     webURL=''
                                     description={postgresqlJavaServerDes}
                         />
                         <ProjectCard imgURL={personalWeb} 
                                     header='My Personal Website'
-                                    techStack='React Bootstrap'
+                                    techStack='React | Bootstrap'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io'
                                     webURL='#'
                                     description={personalWebDes}
+                        />
+                        <ProjectCard imgURL={toDoList}
+                                     header='To Do List'
+                                     techStack='Vue'
+                                     sourceCodeURL='https://github.com/Jiayu-Lu/toDoList-Vue'
+                                     webURL='https://jiayu-lu.github.io/toDoList-Vue/'
+                                     description={toDoListVueDes}
                         />
                         <ProjectCard imgURL={toDoList} 
                                     header='To Do List'
@@ -272,7 +296,7 @@ export default class project extends Component {
                         />
                         <ProjectCard imgURL={githubSearch} 
                                     header='Github User Search Engine'
-                                    techStack='React Axios'
+                                    techStack='React | Axios'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io/tree/master/src/pages/githubSearch'
                                     webURL='/#/githubSearch'
                                     description={githubSearchDes}
@@ -288,41 +312,48 @@ export default class project extends Component {
                     <Tab eventKey="Software Development" title="Software Development" className="project_type_context">
                         <ProjectCard imgURL={EmpowerUAfrica} 
                                     header='EmpowerUAfrica Website'
-                                    techStack='React Nodejs Expressjs MySQL Neo4j'
+                                    techStack='React | Nodejs | Expressjs | MySQL | Neo4j'
                                     sourceCodeURL='https://github.com/UTSCCSCC01/project-uoft-kings'
                                     webURL=''
                                     description={EmpowerUAfricaDes}
                         />
                         <ProjectCard imgURL={zoomer} 
                                     header='Zoomer'
-                                    techStack='PostgreSQL MongoDB Neo4j Java-HttpServer'
+                                    techStack='PostgreSQL | MongoDB | Neo4j | Java-HttpServer'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io/tree/master/src/pages/githubSearch'
                                     webURL=''
                                     description={zoomerDes}
                         />
                         <ProjectCard imgURL={personalWeb} 
                                     header='My Personal Website'
-                                    techStack='React Bootstrap'
+                                    techStack='React | Bootstrap'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io'
                                     webURL='#'
                                     description={personalWebDes}
                         />
                         <ProjectCard imgURL={neo4j} 
                                     header='neo4j Java-HttpServer'
-                                    techStack='Neo4j Java-HttpServer'
+                                    techStack='Neo4j | Java-HttpServer'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/neo4jJavaServer'
                                     webURL=''
                                     description={neo4jJavaServerDes}
                         />
                         <ProjectCard imgURL={postgresql} 
                                     header='PostgreSQL JDBC Backend'
-                                    techStack='PostgreSQL JDBC'
+                                    techStack='PostgreSQL | JDBC'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/postgreSQL_JDBC'
                                     webURL=''
                                     description={postgresqlJavaServerDes}
                         />
                     </Tab>
                     <Tab eventKey="Personal project" title="Personal project" className="project_type_context">
+                        <ProjectCard imgURL={toDoList}
+                                     header='To Do List'
+                                     techStack='Vue'
+                                     sourceCodeURL='https://github.com/Jiayu-Lu/toDoList-Vue'
+                                     webURL='https://jiayu-lu.github.io/toDoList-Vue/'
+                                     description={toDoListVueDes}
+                        />
                         <ProjectCard imgURL={toDoList} 
                                     header='To Do List'
                                     techStack='React'
@@ -332,7 +363,7 @@ export default class project extends Component {
                         />
                         <ProjectCard imgURL={githubSearch} 
                                     header='Github User Search Engine'
-                                    techStack='React Axios'
+                                    techStack='React | Axios'
                                     sourceCodeURL='https://github.com/Jiayu-Lu/Jiayu-Lu.github.io/tree/master/src/pages/githubSearch'
                                     webURL='/#/githubSearch'
                                     description={githubSearchDes}
